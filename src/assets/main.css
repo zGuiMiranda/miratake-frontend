@@ -1,0 +1,13 @@
+.p-menubar {
+  background-color: #000000 !important;
+}
+
+/* Texto roxo claro dos itens */
+.p-menubar .p-menuitem-text {
+  color: #c4b5fd !important; /* roxo claro - Tailwind violet-300 */
+}
+
+/* Opcional: cor ao passar mouse */
+.p-menubar .p-menuitem:hover .p-menuitem-text {
+  color: #a78bfa !important; /* violet-400 */
+}
